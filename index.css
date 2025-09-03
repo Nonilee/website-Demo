@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: Gray hsl(202, 31%, 67%) ;
+  margin: 0 auto;
+}
+
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem  1rem;
+   
+}
+
+h1{
+    font-weight:600;
+    margin: 1rem 0;
+}
+ header img{
+       max-width: 120px;
+       height: auto;
+}
+.Head{
+    text-align: center; 
+}
+
+.Head p{
+   
+    margin: 8px 0 12px;
+    line-height: 1.6;
+}
+
+ button{
+    padding: 0.7rem 1.6rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 20px;
+    background: hsl(171, 66%, 44%);
+    color: white;
+    margin-top: 30px; 
+     box-shadow: 2px 4px 9px rgba(46, 199, 191, 0.89);
+     cursor:pointer;
+     transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+ .btn{
+    background:  hsl(233, 100%, 69%);
+    color: white;
+     box-shadow: 2px 4px 9px rgba(87, 133, 233, 0.89);
+}
+
+p{
+    font-size: 15px;
+    font-weight: 100;
+}
+.start , .board , .product , .end{
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.start p{
+    text-align: center;
+    margin-top: 8px;
+   margin-bottom: 12px;
+   line-height: 1.6;  
+}
+
+.start h2 , .board h3 , .product h3 , .end h3{
+     font-size: clamp(1.5rem, 2.5vw, 2rem );
+     font-size:600;
+     margin-bottom: 1rem;
+
+}
+
+/* .comp  {
+   width: 500px;
+   
+} */
+.comp img , .Desk img {
+   max-width: 100%;
+   height: auto;
+   margin: 2rem auto;
+   display: block;
+} 
+
+section{
+   display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 2rem;
+   margin: 2rem auto;
+   padding: 1rem;
+   
+}
+
+section span{
+    margin: 1rem 3rem;
+}
+
+.Push{
+    max-width: 400px;
+    padding: 5rem ;
+}
+
+
+.Push h4{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.Push p{
+    margin-bottom: 5px;
+    line-height: 1.5;
+  
+}
+
+/* .board{
+    text-align: center;
+    margin: 4rem;
+} */
+
+/* .board h3{
+     margin: 10px;
+     font-size: 25px;
+    font-weight: 600;
+} */
+
+/* .Desk{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.Desk img{
+    height: 500px;
+    margin: 0 auto;
+} */
+
+/* .product{
+    text-align: center;
+} */
+
+/* .product h3{
+    margin: 10px; 
+    font-size: 25px;
+    font-weight: 600;
+} */
+
+/* .product p{
+    font-size: 15px;   
+} */
+
+
+
+/* .blacklist, .text, .view {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+} */
+
+
+
+ #Page{
+    text-align: center;
+    width: 400px;
+   
+}
+ 
+#Page h4{
+    margin: 10px;
+    font-weight: 600;
+}
+
+#Page p{
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+#card{
+    text-align: center;
+    width: 400px;
+   
+    
+}
+ 
+#card h4{
+    margin: 10px;
+    font-weight: 600;
+}
+
+#card p{
+    margin-bottom: 12px;
+    line-height: 1.6;
+} 
+
+#icon{
+    text-align: center;
+    width: 400px;
+    
+}
+ 
+#icon h4{
+    margin: 10px;
+    font-weight: 600;
+}
+
+#icon p{
+    margin-bottom: 12px;
+    line-height: 1.6;
+} 
+
+.info{
+    /* margin: 3rem; 
+    padding: .5rem 1rem;   */
+     margin: 3rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.container{
+    /* display: inline-flex;
+    padding: .5rem 1rem; */
+    
+     display: flex;
+     flex-direction: row;
+     gap: 2rem;
+     /* padding: 5rem 1rem; */
+     max-width: 80%;
+     
+}
+
+
+
+
+
+ #Page h4{
+   
+  position: relative;
+  top: -4px;
+}
+#Page p{
+    position: relative;
+    top: -7px;
+}
+
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 1rem;
+}
+
+
+
+
+
+footer{
+    
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+      background-color: hsl(201, 11%, 66%);
+      padding: .5rem;
+      gap: 2rem;
+     margin-top: 1rem;
+
+}
+
+
+
+#logo img{
+    max-width: 50px;
+    height: auto;
+    margin-left: 100px
+}
+
+#item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+#core span {
+  display: block;
+  line-height: 2;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+
+  /* ================= RESPONSIVE BREAKPOINTS =================  */
+ @media (max-width: 375px) {
+  header {
+    background-image: url(./images/bg-header-mobile.png);
+  }
+
+  .Desk img {
+    height: auto;
+    max-width: 90%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #logo img{
+    margin: 0;
+  }
+
+  .container{
+     flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #item {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .brands {
+    gap: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
